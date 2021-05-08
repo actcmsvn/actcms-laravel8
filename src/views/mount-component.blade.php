@@ -1,1 +1,0 @@
-@actcmscss($name, $params)
