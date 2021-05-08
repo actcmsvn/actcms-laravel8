@@ -7,6 +7,7 @@
 
         <title>{{ config('app.name', 'Laravel') }}</title>
 
+        <link rel="shortcut icon" type="image/x-icon" href="{{ asset('img/icone.png') }}">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i%7CComfortaa:300,400,700" rel="stylesheet">
 
