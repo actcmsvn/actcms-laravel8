@@ -1,7 +1,7 @@
-<x-app-layout title="Calendar">
+<x-app-layout title="{{ __('admin/menus.Calendar') }}">
     <div class="container grid px-6 mx-auto">
         <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-300 dark:text-gray-200">
-            Calendar
+            {{ __('admin/menus.Calendar') }}
         </h2>
         <div class="h-screen antialiased">
             <div x-data="app()" x-init="[initDate(), getNoOfDays()]" x-cloak>
@@ -57,7 +57,7 @@
 												'border-red-200 text-red-800 bg-red-100': event.event_theme === 'red',
 												'border-yellow-200 text-yellow-800 bg-yellow-100': event.event_theme === 'yellow',
 												'border-green-200 text-green-800 bg-green-100': event.event_theme === 'green',
-												'border-purple-200 text-purple-800 bg-purple-100': event.event_theme === 'purple'
+												'border-green-200 text-green-800 bg-green-100': event.event_theme === 'green'
 											}">
                                                 <p x-text="event.event_title" class="text-sm leading-tight truncate"></p>
                                             </div>
@@ -173,8 +173,8 @@
                                 label: "Green Theme"
                             },
                             {
-                                value: "purple",
-                                label: "Purple Theme"
+                                value: "green",
+                                label: "green Theme"
                             }
                         ],
 

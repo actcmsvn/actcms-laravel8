@@ -1,7 +1,7 @@
-<x-app-layout title="Dashboard">
+<x-app-layout title="{{ __('admin/menus.Dashboard') }}">
     <div class="container grid px-6 mx-auto">
         <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">
-            Dashboard
+            {{ __('admin/menus.Dashboard') }}
         </h2>
 
         <!-- Cards -->
@@ -16,7 +16,7 @@
                 </div>
                 <div>
                     <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
-                        Total clients
+                        {{ __('admin/dashboard.Total clients') }}
                     </p>
                     <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
                         6389
@@ -32,7 +32,7 @@
                 </div>
                 <div>
                     <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
-                        Account balance
+                        {{ __('admin/dashboard.Account balance') }}
                     </p>
                     <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
                         $ 46,760.89
@@ -49,7 +49,7 @@
                 </div>
                 <div>
                     <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
-                        New sales
+                        {{ __('admin/dashboard.New sales') }}
                     </p>
                     <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
                         376
@@ -65,7 +65,7 @@
                 </div>
                 <div>
                     <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
-                        Pending contacts
+                        {{ __('admin/dashboard.Pending contacts') }}
                     </p>
                     <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
                         35
@@ -80,10 +80,10 @@
                 <table class="w-full whitespace-no-wrap">
                     <thead>
                         <tr class="text-xs font-semibold tracking-wide text-left text-gray-500 uppercase border-b dark:border-gray-700 bg-gray-50 dark:text-gray-400 dark:bg-gray-800">
-                            <th class="px-4 py-3">Client</th>
-                            <th class="px-4 py-3">Amount</th>
-                            <th class="px-4 py-3">Status</th>
-                            <th class="px-4 py-3">Date</th>
+                            <th class="px-4 py-3">{{ __('admin/dashboard.Client') }}</th>
+                            <th class="px-4 py-3">{{ __('admin/dashboard.Amount') }}</th>
+                            <th class="px-4 py-3">{{ __('admin/dashboard.Status') }}</th>
+                            <th class="px-4 py-3">{{ __('admin/dashboard.Date') }}</th>
                         </tr>
                     </thead>
                     <tbody class="bg-white divide-y dark:divide-gray-700 dark:bg-gray-800">
@@ -352,7 +352,7 @@
             </div>
             <div class="grid px-4 py-3 text-xs font-semibold tracking-wide text-gray-500 uppercase border-t dark:border-gray-700 bg-gray-50 sm:grid-cols-9 dark:text-gray-400 dark:bg-gray-800">
                 <span class="flex items-center col-span-3">
-                    Showing 21-30 of 100
+                    {{ __('admin/dashboard.Showing') }} 21-30 {{ __('admin/dashboard.of') }} 100
                 </span>
                 <span class="col-span-2"></span>
                 <!-- Pagination -->
@@ -360,29 +360,29 @@
                     <nav aria-label="Table navigation">
                         <ul class="inline-flex items-center">
                             <li>
-                                <button class="px-3 py-1 rounded-md rounded-l-lg focus:outline-none focus:shadow-outline-purple" aria-label="Previous">
+                                <button class="px-3 py-1 rounded-md rounded-l-lg focus:outline-none focus:shadow-outline-green" aria-label="Previous">
                                     <svg aria-hidden="true" class="w-4 h-4 fill-current" viewBox="0 0 20 20">
                                         <path d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" fill-rule="evenodd"></path>
                                     </svg>
                                 </button>
                             </li>
                             <li>
-                                <button class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple">
+                                <button class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-green">
                                     1
                                 </button>
                             </li>
                             <li>
-                                <button class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple">
+                                <button class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-green">
                                     2
                                 </button>
                             </li>
                             <li>
-                                <button class="px-3 py-1 text-white transition-colors duration-150 bg-purple-600 border border-r-0 border-purple-600 rounded-md focus:outline-none focus:shadow-outline-purple">
+                                <button class="px-3 py-1 text-white transition-colors duration-150 bg-green-600 border border-r-0 border-green-600 rounded-md focus:outline-none focus:shadow-outline-green">
                                     3
                                 </button>
                             </li>
                             <li>
-                                <button class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple">
+                                <button class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-green">
                                     4
                                 </button>
                             </li>
@@ -390,17 +390,17 @@
                                 <span class="px-3 py-1">...</span>
                             </li>
                             <li>
-                                <button class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple">
+                                <button class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-green">
                                     8
                                 </button>
                             </li>
                             <li>
-                                <button class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple">
+                                <button class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-green">
                                     9
                                 </button>
                             </li>
                             <li>
-                                <button class="px-3 py-1 rounded-md rounded-r-lg focus:outline-none focus:shadow-outline-purple" aria-label="Next">
+                                <button class="px-3 py-1 rounded-md rounded-r-lg focus:outline-none focus:shadow-outline-green" aria-label="Next">
                                     <svg class="w-4 h-4 fill-current" aria-hidden="true" viewBox="0 0 20 20">
                                         <path d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" fill-rule="evenodd"></path>
                                     </svg>
@@ -414,7 +414,7 @@
 
         <!-- Charts -->
         <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">
-            Charts
+            {{ __('admin/menus.Charts') }}
         </h2>
         <div class="grid gap-6 mb-8 md:grid-cols-2">
             <div class="min-w-0 p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800">
@@ -433,7 +433,7 @@
                         <span>Shoes</span>
                     </div>
                     <div class="flex items-center">
-                        <span class="inline-block w-3 h-3 mr-1 bg-purple-600 rounded-full"></span>
+                        <span class="inline-block w-3 h-3 mr-1 bg-green-600 rounded-full"></span>
                         <span>Bags</span>
                     </div>
                 </div>
@@ -450,7 +450,7 @@
                         <span>Organic</span>
                     </div>
                     <div class="flex items-center">
-                        <span class="inline-block w-3 h-3 mr-1 bg-purple-600 rounded-full"></span>
+                        <span class="inline-block w-3 h-3 mr-1 bg-green-600 rounded-full"></span>
                         <span>Paid</span>
                     </div>
                 </div>

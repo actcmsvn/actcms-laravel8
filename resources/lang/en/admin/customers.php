@@ -1,0 +1,25 @@
+<?php 
+
+return [
+    'id'                => 'id',
+    'address'           => 'Địa chỉ',
+    'birthday'          => 'Ngày sinh',
+    'coffee_table_name' => 'Tên bàn',
+    'company'           => 'Đơn vị',
+    'customer_code'     => 'Mã khách hàng',
+    'customer_name'     => 'Khách hàng',
+    'debt'              => 'Công nợ',
+    'detail'            => 'Chi tiết khách hàng',
+    'identity_old'      => 'CMND',
+    'identity'          => 'CCCD',
+    'lists'             => 'Danh sách khách hàng',
+    'mobile'            => 'Di động',
+    'note'              => 'Ghi chú',
+    'phone'             => 'Số điện thoại',
+    'table_group_id'    => 'Khu',
+    'tax_id'            => 'Mã số thuế',
+    'user_id'           => 'Tài khoản',
+    'ward_id'           => 'Xã',
+    'district_id'       => 'Quận',
+    'city_id'           => 'Thành phố',
+];

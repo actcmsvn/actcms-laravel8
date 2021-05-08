@@ -1,19 +1,19 @@
 <x-form-section submit="updatePassword">
     <x-slot name="form">
         <div class="col-span-6 sm:col-span-4">
-            <x-label for="current_password" value="Current Password" />
+            <x-label for="current_password" value="{{ __('auth.Current Password') }}" />
             <x-input id="current_password" type="password" class="block w-full mt-1" wire:model.defer="state.current_password" autocomplete="current-password" />
             <x-input-error for="current_password" class="mt-2" />
         </div>
 
         <div class="col-span-6 sm:col-span-4">
-            <x-label for="password" value="New Password" />
+            <x-label for="password" value="{{ __('auth.New Password') }}" />
             <x-input id="password" type="password" class="block w-full mt-1" wire:model.defer="state.password" autocomplete="new-password" />
             <x-input-error for="password" class="mt-2" />
         </div>
 
         <div class="col-span-6 sm:col-span-4">
-            <x-label for="password_confirmation" value="Confirm Password" />
+            <x-label for="password_confirmation" value="{{ __('auth.Confirm Password') }}" />
             <x-input id="password_confirmation" type="password" class="block w-full mt-1" wire:model.defer="state.password_confirmation" autocomplete="new-password" />
             <x-input-error for="password_confirmation" class="mt-2" />
         </div>
@@ -21,11 +21,11 @@
 
     <x-slot name="actions">
         <x-action-message class="mr-3" on="saved">
-            {{ __('Saved.') }}
+            {{ __('admin/users.Saved') }}
         </x-action-message>
 
         <x-button>
-            {{ __('Save') }}
+            {{ __('admin/users.Save') }}
         </x-button>
     </x-slot>
 </x-form-section>

@@ -1,0 +1,37 @@
+<?php 
+
+return [
+    'lists'             => 'Danh sách phiếu nhập',
+    'detail'            => 'Chi tiết phiếu nhập',
+    'index'         => 'Quản lý',
+    'any'           => 'Xem tất cả',
+    'same'          => 'Xem tương tự',
+    'owner'         => 'Xem sở hữu',
+    'create'        => 'Tạo',
+    'update'        => 'Cập nhật',
+    'delete'        => 'Xóa',
+    'restore'       => 'Khôi phục',
+    'destroy'       => 'Xóa vĩnh viễn',
+
+    'save'              => 'Bán hàng',
+    'receipt_info'      => 'Thông tin phiếu nhập',
+    'provider_info'     => 'Thông tin nhà cung cấp',
+    'company_info'      => 'Thông tin công ty',
+
+    'user_id'           => 'Người tạo',
+    'provider_id'       => 'Nhà cung cấp',
+    'provider_name'     => 'Đơn vị',
+    'tax_id'            => 'Mã số thuế',
+    'address'           => 'Địa chỉ',
+    'phone'             => 'Số điện thoại',
+    'fax'               => 'Fax',
+    'symbole'           => 'Ký hiệu',
+    'receipt_number'    => 'Số',
+    'receipt_date'      => 'Ngày nhập',
+    'subtotal'          => 'Tổng',
+    'vat'               => 'VAT',
+    'vat_total'         => 'Tiền VAT',
+    'total'             => 'Tổng cộng',
+    'receipt_products'  => 'Chi tiết',
+    'note'              => 'Ghi chú',
+];

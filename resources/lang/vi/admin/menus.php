@@ -1,0 +1,53 @@
+<?php 
+
+return [
+    'lists'         => 'Danh sách điều hướng',
+    'detail'        => 'Chi tiết điều hướng',
+    'index'         => 'Quản lý',
+    'any'           => 'Xem tất cả',
+    'same'          => 'Xem tương tự',
+    'owner'         => 'Xem sở hữu',
+    'create'        => 'Tạo',
+    'update'        => 'Cập nhật',
+    'delete'        => 'Xóa',
+    'restore'       => 'Khôi phục',
+    'destroy'       => 'Xóa vĩnh viễn',
+    
+    'menu_id'       => 'ID',
+    'parent_id'     => 'Cấp trên',
+    'parent'        => 'Điều hướng gốc',
+    'menu_name'     => 'Tên điều hướng',
+    'alias'         => 'URL',
+    'type'          => 'Loại điều hướng',
+    'target'        => 'Cách điều hướng',
+    'is_show'       => 'Hiển thị',
+    'is_hide'       => 'Ẩn',
+    'sort'          => 'Thứ tự',
+    'lang'          => 'Ngôn ngữ',
+    'note'          => 'Ghi chú',
+
+    'null'          => 'Trang rỗng',
+    'url'           => 'Đường dẫn',
+    'home'          => 'Trang chủ',
+    'about'         => 'Trang giới thiệu',
+    'category'      => 'Trang danh mục',
+    'content'       => 'Trang bài viết',
+    'contact'       => 'Trang liên hệ',
+    
+    'normal'        => 'Bình thường',
+    'blank'         => 'Mở cửa sổ mới',
+
+    'category'      => 'Danh mục',
+    'content'       => 'Bài viết',
+    'type'          => 'Loại sản phẩm',
+    'product'       => 'Sản phẩm',
+
+    'Dashboard' => 'Tổng quan',
+    'Forms' => 'Các mẫu',
+    'Cards' => 'Các thẻ',
+    'Charts' => 'Biểu đồ',
+    'Buttons' => 'Nút bấm',
+    'Modals' => 'Cửa sổ ẩn',
+    'Tables' => 'Các bảng',
+    'Calendar' => 'Lịch',
+];

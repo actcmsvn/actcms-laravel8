@@ -1,7 +1,7 @@
-<x-app-layout title="Cards">
+<x-app-layout title="{{ __('admin/menus.Cards') }}">
     <div class="container grid px-6 mx-auto">
         <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">
-            Cards
+            {{ __('admin/menus.Cards') }}
         </h2>
 
         <!-- Big section cards -->
@@ -103,7 +103,7 @@
                     nihil dolorum.
                 </p>
             </div>
-            <div class="min-w-0 p-4 text-white bg-purple-600 rounded-lg shadow-xs">
+            <div class="min-w-0 p-4 text-white bg-green-600 rounded-lg shadow-xs">
                 <h4 class="mb-4 font-semibold">
                     Colored card
                 </h4>

@@ -1,0 +1,31 @@
+<?php 
+
+return [
+    'lists'         => 'Danh sách điều hướng',
+    'detail'        => 'Chi tiết điều hướng',
+    'menu_id'       => 'ID',
+    'parent_id'     => 'Cấp trên',
+    'parent'        => 'Điều hướng gốc',
+    'menu_name'     => 'Tên điều hướng',
+    'alias'         => 'URL',
+    'type'          => 'Loại điều hướng',
+    'target'        => 'Cách điều hướng',
+    'is_show'       => 'Hiển thị',
+    'is_hide'       => 'Ẩn',
+    'sort'          => 'Thứ tự',
+    'lang'          => 'Ngôn ngữ',
+    'note'          => 'Ghi chú',
+
+    'null'          => 'Trang rỗng',
+    'url'           => 'Đường dẫn',
+    'home'          => 'Trang chủ',
+    'about'         => 'Trang giới thiệu',
+    'category'      => 'Trang danh mục',
+    'content'       => 'Trang bài viết',
+    'contact'       => 'Trang liên hệ',
+    'normal'        => 'Bình thường',
+    'blank'         => 'Mở cửa sổ mới',
+    'home_category' => 'Danh mục',
+    'home_type'     => 'Loại sản phẩm',
+    'product'       => 'Sản phẩm',
+];

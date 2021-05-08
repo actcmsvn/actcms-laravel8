@@ -167,7 +167,7 @@ module.exports = {
                 xl: '36rem',
             },
             fontFamily: {
-                sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+                sans: ['Comfortaa', ...defaultTheme.fontFamily.sans],
             },
         },
     },
