@@ -108,7 +108,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100">
-                                    Approved
+                                    Chấp nhận
                                 </span>
                             </td>
                             <td class="px-4 py-3 text-sm">
@@ -137,7 +137,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span class="px-2 py-1 font-semibold leading-tight text-orange-700 bg-orange-100 rounded-full dark:text-white dark:bg-orange-600">
-                                    Pending
+                                    Chờ
                                 </span>
                             </td>
                             <td class="px-4 py-3 text-sm">
@@ -195,7 +195,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100">
-                                    Approved
+                                    Chấp nhận
                                 </span>
                             </td>
                             <td class="px-4 py-3 text-sm">
@@ -253,7 +253,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100">
-                                    Approved
+                                    Chấp nhận
                                 </span>
                             </td>
                             <td class="px-4 py-3 text-sm">
@@ -282,7 +282,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100">
-                                    Approved
+                                    Chấp nhận
                                 </span>
                             </td>
                             <td class="px-4 py-3 text-sm">
@@ -311,7 +311,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100">
-                                    Approved
+                                    Chấp nhận
                                 </span>
                             </td>
                             <td class="px-4 py-3 text-sm">
@@ -340,7 +340,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100">
-                                    Approved
+                                    Chấp nhận
                                 </span>
                             </td>
                             <td class="px-4 py-3 text-sm">
@@ -419,39 +419,39 @@
         <div class="grid gap-6 mb-8 md:grid-cols-2">
             <div class="min-w-0 p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800">
                 <h4 class="mb-4 font-semibold text-gray-800 dark:text-gray-300">
-                    Revenue
+                    Doanh thu
                 </h4>
                 <canvas id="pie"></canvas>
                 <div class="flex justify-center mt-4 space-x-3 text-sm text-gray-600 dark:text-gray-400">
                     <!-- Chart legend -->
                     <div class="flex items-center">
                         <span class="inline-block w-3 h-3 mr-1 bg-blue-500 rounded-full"></span>
-                        <span>Shirts</span>
+                        <span>Áo sơ mi</span>
                     </div>
                     <div class="flex items-center">
                         <span class="inline-block w-3 h-3 mr-1 bg-teal-600 rounded-full"></span>
-                        <span>Shoes</span>
+                        <span>Giày</span>
                     </div>
                     <div class="flex items-center">
                         <span class="inline-block w-3 h-3 mr-1 bg-green-600 rounded-full"></span>
-                        <span>Bags</span>
+                        <span>Túi sách</span>
                     </div>
                 </div>
             </div>
             <div class="min-w-0 p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800">
                 <h4 class="mb-4 font-semibold text-gray-800 dark:text-gray-300">
-                    Traffic
+                    Biểu đồ
                 </h4>
                 <canvas id="line"></canvas>
                 <div class="flex justify-center mt-4 space-x-3 text-sm text-gray-600 dark:text-gray-400">
                     <!-- Chart legend -->
                     <div class="flex items-center">
                         <span class="inline-block w-3 h-3 mr-1 bg-teal-600 rounded-full"></span>
-                        <span>Organic</span>
+                        <span>Hữu cơ</span>
                     </div>
                     <div class="flex items-center">
                         <span class="inline-block w-3 h-3 mr-1 bg-green-600 rounded-full"></span>
-                        <span>Paid</span>
+                        <span>Đã thanh toán</span>
                     </div>
                 </div>
             </div>
