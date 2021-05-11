@@ -15,7 +15,7 @@ const pieConfig = {
         label: 'Dataset 1',
       },
     ],
-    labels: ['Shoes', 'Shirts', 'Bags'],
+    labels: ['Giày', 'Áo sơ mi', 'Túi xách'],
   },
   options: {
     responsive: true,

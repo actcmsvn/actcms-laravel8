@@ -4,10 +4,10 @@
 const lineConfig = {
   type: 'line',
   data: {
-    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+    labels: ['Tháng 1', 'Tháng 2', 'Tháng 3', 'Tháng 4', 'Tháng 5', 'Tháng 6', 'Tháng 7'],
     datasets: [
       {
-        label: 'Organic',
+        label: 'Hữu cơ',
         /**
          * These colors come from Tailwind CSS palette
          * https://tailwindcss.com/docs/customizing-colors/#default-color-palette
@@ -18,7 +18,7 @@ const lineConfig = {
         fill: false,
       },
       {
-        label: 'Paid',
+        label: 'Đã thanh toán',
         fill: false,
         /**
          * These colors come from Tailwind CSS palette
@@ -52,14 +52,14 @@ const lineConfig = {
         display: true,
         scaleLabel: {
           display: true,
-          labelString: 'Month',
+          labelString: 'Tháng',
         },
       },
       y: {
         display: true,
         scaleLabel: {
           display: true,
-          labelString: 'Value',
+          labelString: 'Giá trị',
         },
       },
     },
