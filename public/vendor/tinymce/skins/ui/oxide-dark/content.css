@@ -60,7 +60,7 @@ pre[class*="language-"] {
   color: #f8f8f2;
   background: none;
   text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-family: Comfortaa, sans-serif;
   text-align: left;
   white-space: pre;
   word-spacing: normal;
@@ -343,7 +343,7 @@ pre[class*="language-"] {
   border-radius: 3px;
   color: white;
   display: none;
-  font-family: sans-serif;
+  font-family: Comfortaa, sans-serif;
   font-size: 12px;
   line-height: 14px;
   margin: 5px 10px;
@@ -707,7 +707,7 @@ table[style*="border-width: 0px"] caption,
   content: '-';
 }
 body {
-  font-family: sans-serif;
+  font-family: Comfortaa, sans-serif;
 }
 table {
   border-collapse: collapse;

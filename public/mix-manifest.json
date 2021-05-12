@@ -1,8 +1,8 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
-    "/vendors/tinymce/jquery.tinymce.js": "/vendors/tinymce/jquery.tinymce.js",
-    "/vendors/tinymce/jquery.tinymce.min.js": "/vendors/tinymce/jquery.tinymce.min.js",
-    "/vendors/tinymce/tinymce.js": "/vendors/tinymce/tinymce.js",
-    "/vendors/tinymce/tinymce.min.js": "/vendors/tinymce/tinymce.min.js"
+    "/vendor/tinymce/jquery.tinymce.js": "/vendor/tinymce/jquery.tinymce.js",
+    "/vendor/tinymce/jquery.tinymce.min.js": "/vendor/tinymce/jquery.tinymce.min.js",
+    "/vendor/tinymce/tinymce.js": "/vendor/tinymce/tinymce.js",
+    "/vendor/tinymce/tinymce.min.js": "/vendor/tinymce/tinymce.min.js"
 }

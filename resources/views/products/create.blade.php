@@ -62,11 +62,23 @@
                 </label>
                 <label class="block mt-4 text-sm">
                     <span class="text-gray-700 dark:text-gray-400">{{ __('Detail') }}</span>
-                    <textarea name="detail" class="detail block w-full mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 form-textarea focus:border-green-400 focus:outline-none focus:shadow-outline-green dark:focus:shadow-outline-gray" rows="5" placeholder="{{ __('Detail') }}"></textarea>
+                    <textarea name="detail" class="detail block w-full mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 form-textarea focus:border-green-400 focus:outline-none focus:shadow-outline-green dark:focus:shadow-outline-gray" rows="15" placeholder="{{ __('Detail') }}"></textarea>
                     <script src="{{ asset('vendor/tinymce/tinymce.js') }}"></script>
                     <script>
                         tinymce.init({
-                            selector:'textarea.detail'
+                          selector: 'textarea.detail',  // change this value according to your HTML
+                          plugins: [ "spellchecker code autolink link image fullscreen searchreplace wordcount visualblocks visualchars insertdatetime media table paste textcolor textpattern emoticons media lists" ],
+                          toolbar1: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link unlink image | code | forecolor backcolor | emoticons",
+                          image_advtab: true,
+                                    skin: "oxide-dark",
+                                    content_css: "dark",
+                                    height: 400,
+                          /* content_css : "/css/style.css", */
+                                    relative_urls: false,
+                          convert_urls: false,
+                          remove_script_host : false,
+                          font_formats: "Comfortaa; Arial Black=arial black,avant garde; Courier New=courier new,courier; Lato Black=lato; Roboto=roboto;",
+                          icons: "thin",
                         });
                     </script>
                 </label>

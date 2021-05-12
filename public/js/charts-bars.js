@@ -30,5 +30,10 @@ const barConfig = {
   },
 }
 
+var options = {
+    // 'Comfortaa' is the name of the fond I imported from GoogleFonts
+    defaultFontFamily: Chart.defaults.global.defaultFontFamily = "'Comfortaa'"
+}
+
 const barsCtx = document.getElementById('bars')
 window.myBar = new Chart(barsCtx, barConfig)
