@@ -25,15 +25,15 @@
                     <!-- Chart legend -->
                     <div class="flex items-center">
                         <span class="inline-block w-3 h-3 mr-1 bg-blue-600 rounded-full"></span>
-                        <span>Shirts</span>
+                        <span>Áo sơ mi</span>
                     </div>
                     <div class="flex items-center">
                         <span class="inline-block w-3 h-3 mr-1 bg-teal-500 rounded-full"></span>
-                        <span>Shoes</span>
+                        <span>Giày</span>
                     </div>
                     <div class="flex items-center">
                         <span class="inline-block w-3 h-3 mr-1 bg-green-600 rounded-full"></span>
-                        <span>Bags</span>
+                        <span>Túi xách</span>
                     </div>
                 </div>
             </div>
@@ -47,11 +47,11 @@
                     <!-- Chart legend -->
                     <div class="flex items-center">
                         <span class="inline-block w-3 h-3 mr-1 bg-teal-500 rounded-full"></span>
-                        <span>Organic</span>
+                        <span>Hữu cơ</span>
                     </div>
                     <div class="flex items-center">
                         <span class="inline-block w-3 h-3 mr-1 bg-green-600 rounded-full"></span>
-                        <span>Paid</span>
+                        <span>Đã thanh toán</span>
                     </div>
                 </div>
             </div>
@@ -65,11 +65,11 @@
                     <!-- Chart legend -->
                     <div class="flex items-center">
                         <span class="inline-block w-3 h-3 mr-1 bg-teal-500 rounded-full"></span>
-                        <span>Shoes</span>
+                        <span>Giày</span>
                     </div>
                     <div class="flex items-center">
                         <span class="inline-block w-3 h-3 mr-1 bg-green-600 rounded-full"></span>
-                        <span>Bags</span>
+                        <span>Túi xách</span>
                     </div>
                 </div>
             </div>

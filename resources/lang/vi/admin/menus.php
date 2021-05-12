@@ -50,4 +50,5 @@ return [
     'Modals' => 'Cửa sổ ẩn',
     'Tables' => 'Các bảng',
     'Calendar' => 'Lịch',
+    'Product' => 'Sản phẩm',
 ];
