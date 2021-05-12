@@ -1,26 +1,44 @@
 <!DOCTYPE html>
 <html :class="{ 'theme-dark': dark }" x-data="data()" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <link rel="shortcut icon" type="image/x-icon" href="{{ asset('img/icone.png') }}">
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i%7CComfortaa:300,400,700" rel="stylesheet">
+    <title>{{ $title }}</title>
 
-        <!-- Styles -->
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('img/icone.png') }}">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i%7CComfortaa:300,400,700" rel="stylesheet">
 
-        <!-- Scripts -->
-        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.2.1/dist/alpine.js" defer></script>
-        <script src="{{ asset('js/app.js') }}"></script>
-    </head>
-    <body>
-        <div class="font-sans antialiased text-gray-900">
-            {{ $slot }}
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/tailwind.output.css') }}" />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <script src="{{asset('js/init-alpine.js')}}" defer></script>
+
+    @livewireStyles
+
+    <!-- Scripts -->
+    {{-- <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.6.0/dist/alpine.js" defer></script> --}}
+</head>
+
+<body>
+    <div class="flex h-screen bg-gray-50 dark:bg-gray-900" :class="{ 'overflow-hidden': isSideMenuOpen }">
+
+        <div class="flex flex-col flex-1 w-full">
+            @include('layouts.navigation-dropdown-guest')
+            <main class="h-full overflow-y-auto">
+                {{ $slot }}
+            </main>
         </div>
-    </body>
+
+
+        @stack('modals')
+
+        @livewireScripts
+    </div>
+</body>
+
 </html>

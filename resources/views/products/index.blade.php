@@ -1,11 +1,15 @@
 <x-app-layout title="Products">
     <div class="container grid px-6 mx-auto">
-        <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">
-            {{ __('Products') }}
-        </h2>
-        <div class="pull-right">
-            <a class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100" href="{{ route('products.create') }}"> Create New Product</a>
-        </div>
+        <header class="my-4 flex items-center justify-between mb-4">
+            <h2 class="text-lg leading-6 font-semibold text-gray-700 dark:text-gray-200">{{ __('admin/menus.Product') }}</h2>
+            <a class="hover:bg-light-blue-200 hover:text-light-blue-800 group flex items-center rounded-md bg-light-blue-100 text-light-blue-600 text-sm font-semibold px-4 py-2 dark:text-gray-200 dark:bg-green-700 dark:text-green-100 dark:text-gray-200" href="{{ route('products.create') }}">
+              <svg class="group-hover:text-light-blue-600 text-light-blue-500 mr-2" width="12" height="20" fill="currentColor">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M6 5a1 1 0 011 1v3h3a1 1 0 110 2H7v3a1 1 0 11-2 0v-3H2a1 1 0 110-2h3V6a1 1 0 011-1z"/>
+              </svg>
+              {{ __('Create New Product') }}
+            </a>
+        </header>
+
             @if ($message = Session::get('success'))
                 <div class="min-w-0 p-4 text-white bg-green-600 rounded-lg shadow-xs">
                 <p>
@@ -21,7 +25,7 @@
                             class="text-xs font-semibold tracking-wide text-left text-gray-500 uppercase border-b dark:border-gray-700 bg-gray-50 dark:text-gray-400 dark:bg-gray-800">
                             <th class="px-4 py-3">STT</th>
                             <th class="px-4 py-3">Name</th>
-                            <th class="px-4 py-3">Details</th>
+                            <th class="px-4 py-3">Photo</th>
                             <th class="px-4 py-3">Action</th>
                         </tr>
                     </thead>
@@ -35,7 +39,7 @@
                                 {{ $product->name }}
                             </td>
                             <td class="px-4 py-3 text-sm">
-                               {{ $product->detail }}
+                               {{ $product->product_photo_path }}
                             </td>
                             <td class="px-4 py-3">
                                 <form action="{{ route('products.destroy',$product->id) }}" method="POST">

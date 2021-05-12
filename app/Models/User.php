@@ -57,4 +57,17 @@ class User extends Authenticatable
     protected $appends = [
         'profile_photo_url',
     ];
+
+    // posts has many comments
+    // returns all comments on that post
+    public function comments()
+      {
+        return $this->hasMany('App\Comments', 'on_post');
+      }
+
+    // user has many posts
+    public function posts()
+      {
+        return $this->hasMany('App\Posts', 'author_id');
+      }
 }

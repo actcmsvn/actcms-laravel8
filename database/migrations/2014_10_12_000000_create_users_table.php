@@ -22,6 +22,7 @@ class CreateUsersTable extends Migration
             $table->rememberToken();
             $table->string('current_team_id')->nullable();
             $table->text('profile_photo_path')->nullable();
+            $table->enum('role',['admin','author','subscriber'])->default('author');
             $table->timestamps();
         });
     }
